@@ -1,0 +1,16 @@
+VirtualAddrNetworkIPv4 10.192.0.0/10
+AutomapHostsOnResolve 1
+TransPort 127.0.0.1:9040 NoIsolateDestAddr NoIsolateDestPort NoIsolateClientAddr NoIsolateClientProtocol NoIsolateSOCKSAuth
+DNSPort 127.0.0.1:9053 NoIsolateDestAddr NoIsolateDestPort NoIsolateClientAddr NoIsolateClientProtocol NoIsolateSOCKSAuth
+ControlPort 9051
+HashedControlPassword 16:4896922EFE9CBE3360A7EC52BB2D8DD6751042669B48D6E9948D5F133C
+SOCKSPort 127.0.0.1:9050 NoIsolateDestAddr NoIsolateDestPort NoIsolateClientAddr NoIsolateClientProtocol NoIsolateSOCKSAuth
+Socks5Proxy 127.0.0.1:40000
+#BandwidthRate 5 Mbytes
+#BandwidthBurst 15 Mbytes
+#__LeaveStreamsUnattached 1
+#__DisablePredictedCircuits 1
+#UseBridges 1
+#ClientTransportPlugin obfs4 exec /usr/bin/obfs4proxy managed
+#Bridge ...
+#Bridge ...
